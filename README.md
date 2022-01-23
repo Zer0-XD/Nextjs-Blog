@@ -1,12 +1,16 @@
-# Next.js + Tailwind CSS Blog
+<h1  align="center" > Next.js + Tailwind CSS Blog</h1>
 
-<h3> Medium inspired blog created in nextjs + sanity and tailwindcss </h4>
+<h3 align="center"> Medium inspired blog created in nextjs + sanity and tailwindcss </h4>
 
-<h2>ToDo</h2>
+<h1  align="center" ><a href="https://nextjs-blog-zer0-xd.vercel.app">🙌🙌 DEMO 🙌🙌</a></h1>
+
+<h2>Todos</h2>
+
 ```
-- 🌒 Light/Dark mode toggle
-- 🔥 transitions
+- [ ] 🌒 Light/Dark mode toggle
+- [ ] 🔥 transitions
 ```
+
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 ## Preview
