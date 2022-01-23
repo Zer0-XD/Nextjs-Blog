@@ -8,7 +8,7 @@ import { ThemeProvider } from 'next-themes'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <ThemeProvider defaultTheme="dark" storageKey='theme-web' >
+      <ThemeProvider defaultTheme="dark" forcedTheme="dark" storageKey='theme-web' >
         <NextNProgress color='#E1AD01' height={8} options={{ easing: 'ease', showSpinner: false, }} />
         <Component {...pageProps} />
       </ThemeProvider>
