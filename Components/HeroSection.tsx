@@ -4,12 +4,12 @@ function HeroSection() {
   return (
     <div className="flex justify-between items-center bg-gradient-to-br from-[#FEB692] to-[#EA5455] py-10 lg:py-0 rounded-md shadow shadow-lg shadow-black`">
       <div className="px-10 space-y-5">
-        <h1 className="text-6xl font-serif max-w-xl">
+        <h1 className="text-6xl font-serif text-black max-w-xl">
           Welcome to{" "}
           <span className="underline decoration-black decoration-4 ">My</span>{" "}
           blog
         </h1>
-        <h3>Medium inspired Blog using next.js and tailwind with sanity cms</h3>
+        <h3 className="text-black">Medium inspired Blog using next.js and tailwind with sanity cms</h3>
       </div>
       <img
         src="/avatar_voxel.png"

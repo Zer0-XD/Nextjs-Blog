@@ -90,17 +90,17 @@ function Post({ post }: Props) {
             <label className='block mb-5'>
                 <span>Name</span>
                 <input
-                    {...register("name", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 focus:ring focus:outline-none" type="text" placeholder='Enter Name' />
+                    {...register("name", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 bg-[#121212] focus:border-none font-mono focus:ring focus:outline-none" type="text" placeholder='Enter Name' />
             </label>
 
             <label className='block mb-5'>
                 <span>Email</span>
-                <input {...register("email", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 focus:ring focus:outline-none" type="email" placeholder='Enter Email' />
+                <input {...register("email", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 bg-[#121212] focus:border-none font-mono focus:ring focus:outline-none" type="email" placeholder='Enter Email' />
             </label>
 
             <label className='block mb-5'>
                 <span>Name</span>
-                <textarea {...register("comment", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 focus:ring focus:outline-none" rows={8} placeholder='Enter Message' />
+                <textarea {...register("comment", { required: true })} className="shadow rounded border py-2 px-3 form-input mt-1 block w-full ring-yellow-400 bg-[#121212] focus:border-none font-mono focus:ring focus:outline-none" rows={8} placeholder='Enter Message' />
             </label>
             {/* errors */}
             <div className='flex flex-col p-5'>
@@ -116,7 +116,7 @@ function Post({ post }: Props) {
             </div>
             {/* ======= */}
 
-            <input type="submit" className='shadow hovershadow-gray-200 border mx-auto border-[#d57eeb]text-black hover:bg-gradient-to-br hover:to-[#d57eeb] hover:from-[#fccb90] hover:text-white hover:font-semibold  hover:scale-125 hover:shadow-lg transition-all ease-linear outline-none w-36 rounded-lg cursor-pointer p-4' />
+            <input type="submit" className='shadow hovershadow-gray-200 border mx-auto border-[#d57eeb]text-black hover:bg-gradient-to-br hover:to-[#d57eeb] hover:from-[#fccb90] hover:text-white hover:font-semibold  hover:scale-125 hover:shadow-lg transition-all hover:border-none ease-linear outline-none w-36 rounded-lg cursor-pointer p-4' />
         </form>
 
 

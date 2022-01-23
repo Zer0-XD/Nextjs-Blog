@@ -3,7 +3,7 @@ import Link from "next/link";
 function Header() {
 
   return (
-    <header className="flex justify-between p-3 sticky z-50 top-0 shadow-sm bg-white bg-opacity-80 backdrop-blur-lg transform-gpu transition-all">
+    <header className="flex justify-between p-3 sticky z-50 top-0 bg-gradient-to-b from-[#121212] to-transparent bg-opacity-80 backdrop-blur-lg transition-all">
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
