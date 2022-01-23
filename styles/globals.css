@@ -4,5 +4,6 @@
 
 
 body{
+    background: #121212;
     overscroll-behavior: none !important;
 }
